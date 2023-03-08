@@ -177,3 +177,22 @@
     color: #0071EB;
     font-size: 13px;
 }
+
+@media screen and (max-width: 600px) {
+
+    .logo{
+        display: none;
+    }
+    
+    .mid-container{
+        background: none;
+        
+        
+    }
+
+    .mid{
+        width: 600px;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+}
